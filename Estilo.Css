@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Sans:wght@200..800&display=swap');
+
+body{
+font-family: "Momo Trust Sans", sans-serif;
+background-color:#3B3340;
+margin: 0;
+padding: 0;
+}
+
+.Paginas{
+height: 100vh;
+width: 100vw;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+display: flex;
+position:absolute;
+font-size: 15px;
+color: aliceblue;
+display: none;
+}
+
+.Paginas img{
+
+max-width: 90vh;
+max-height: 90vw;
+height: auto;
+width: 100%;
+margin-bottom: 1px;
+}
+
+#botaoFujao {
+    position: absolute;
+    width: 150px;
+    height: auto;
+    cursor:pointer;
+    transition: transform 0.2s ease, left 0.2s, top 0.2s;
+}
+
+#Pag12{
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-bottom: 10px;
+    
+}
+
+#Pag12 h3{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.Cartas{
+    perspective: 1000px;
+}
+
+#Pag12 img{
+    max-width: 90vw;
+    max-height: 70vh;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+
+#Pag15{
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    align-items: center;
+
+}
+
+#Pag15 img{
+    max-width: 90vw;
+    max-height: 70vh;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#Pag16 p{
+    font-size: 7px;
+}
+
+#Pag16 img{
+    max-width: 90vw;
+    max-height: 70vh;
+    width: auto;
+    height: auto;
+    margin: 10px;
+}
